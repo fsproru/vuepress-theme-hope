@@ -6,22 +6,68 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-01-24T16:03:12.505Z</updated>
+  <updated>2021-01-24T16:04:50.619Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme.mrhope.site/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme.mrhope.site/"/>
   <rights>MIT Licensed | Copyright © 2019-present Mr.Hope</rights>
+  <category term="FAQ"/>
   <category term="basic"/>
   <category term="config"/>
   <category term="demo"/>
   <category term="feature"/>
   <category term="markdown"/>
-  <category term="FAQ"/>
   <category term="instruction"/>
   <category term="layout"/>
   <contributor>
     <name>Mr.Hope</name>
   </contributor>
+  <entry>
+    <title type="html">Common problems</title>
+    <id>https://vuepress-theme.mrhope.site/FAQ/</id>
+    <link href="https://vuepress-theme.mrhope.site/FAQ/"/>
+    <updated>2021-01-24T15:56:07.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="common-problems"> Common problems</h1>
+<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
+<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
+<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
+<h2 id="typescript-problems"> TypeScript problems</h2>
+<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
+<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
+<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
+<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
+<p>A simple tsconfig.json is as follows:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>// type definition files of vuepress and this theme</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
+<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
+<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
+<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
+<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
+<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
+<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="FAQ"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
   <entry>
     <title type="html">Markdown DEMO</title>
     <id>https://vuepress-theme.mrhope.site/basic/markdown/demo/</id>
@@ -4922,52 +4968,6 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">Common problems</title>
-    <id>https://vuepress-theme.mrhope.site/FAQ/</id>
-    <link href="https://vuepress-theme.mrhope.site/FAQ/"/>
-    <updated>2021-01-24T15:56:07.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="common-problems"> Common problems</h1>
-<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
-<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
-<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
-<h2 id="typescript-problems"> TypeScript problems</h2>
-<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
-<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
-<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
-<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
-<p>A simple tsconfig.json is as follows:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>// type definition files of vuepress and this theme</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
-<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
-<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
-<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
-<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
-<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
-<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Page information</title>
     <id>https://vuepress-theme.mrhope.site/guide/feature/page-info/</id>
     <link href="https://vuepress-theme.mrhope.site/guide/feature/page-info/"/>
@@ -5086,6 +5086,33 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Page Enhance</title>
+    <id>https://vuepress-theme.mrhope.site/guide/feature/page/</id>
+    <link href="https://vuepress-theme.mrhope.site/guide/feature/page/"/>
+    <updated>2021-01-24T15:56:07.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="page-enhance"> Page Enhance</h1>
+<h2 id="breadcrumb"> Breadcrumb <i>Not supported content</i></h2>
+<p>See <a href="./../layout/page.html#breadcrumb">Layout → Page → Breadcrumb Section</a></p>
+<h2 id="picture-preview"> Picture Preview</h2>
+<p>We supports clicking to preview and zooming the picture, while supporting the sliding browsing of the page picture and the sharing and downloading of the picture too. You can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
+<p>For more options, please see <a href="https://vuepress-photo-swipe.mrhope.site/config/" target="_blank" rel="noopener noreferrer">photo-swipe plugin configuration</a></p>
+<h2 id="code-copy"> Code Copy</h2>
+<p>We will add a copy button to the right bottom corner of each code block, which allows you to click and copy the code.</p>
+<p>The button is displayed only in desktop mode by default.</p>
+<p>For more options, please see <a href="https://vuepress-copy-code.mrhope.site/config/" target="_blank" rel="noopener noreferrer">copy-code plugin docs</a></p>
+<h2 id="footer-support"> Footer Support <i>Not supported content</i></h2>
+<p>See <a href="./../layout/page.html#footer-support">Layout → Page → Footer Section</a></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">PWA</title>
     <id>https://vuepress-theme.mrhope.site/guide/feature/pwa/</id>
     <link href="https://vuepress-theme.mrhope.site/guide/feature/pwa/"/>
@@ -5107,33 +5134,6 @@ $$
 <p>To prevent from including large files in your precache list, any resources larger than 2MB and any pictures larger than 1MB will be dropped. You can change the size limit by setting <code>themeConfig.pwa.maxSize</code> and <code>themeConfig.pwa.maxPicSize</code>.</p>
 <h2 id="more"> More</h2>
 <p>For more detail, see <a href="https://vuepress-pwa.mrhope.site/" target="_blank" rel="noopener noreferrer">pwa plugin documatation</a></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Page Enhance</title>
-    <id>https://vuepress-theme.mrhope.site/guide/feature/page/</id>
-    <link href="https://vuepress-theme.mrhope.site/guide/feature/page/"/>
-    <updated>2021-01-24T15:56:07.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="page-enhance"> Page Enhance</h1>
-<h2 id="breadcrumb"> Breadcrumb <i>Not supported content</i></h2>
-<p>See <a href="./../layout/page.html#breadcrumb">Layout → Page → Breadcrumb Section</a></p>
-<h2 id="picture-preview"> Picture Preview</h2>
-<p>We supports clicking to preview and zooming the picture, while supporting the sliding browsing of the page picture and the sharing and downloading of the picture too. You can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
-<p>For more options, please see <a href="https://vuepress-photo-swipe.mrhope.site/config/" target="_blank" rel="noopener noreferrer">photo-swipe plugin configuration</a></p>
-<h2 id="code-copy"> Code Copy</h2>
-<p>We will add a copy button to the right bottom corner of each code block, which allows you to click and copy the code.</p>
-<p>The button is displayed only in desktop mode by default.</p>
-<p>For more options, please see <a href="https://vuepress-copy-code.mrhope.site/config/" target="_blank" rel="noopener noreferrer">copy-code plugin docs</a></p>
-<h2 id="footer-support"> Footer Support <i>Not supported content</i></h2>
-<p>See <a href="./../layout/page.html#footer-support">Layout → Page → Footer Section</a></p>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
@@ -10095,86 +10095,6 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">主题配置</title>
-    <id>https://vuepress-theme.mrhope.site/zh/config/theme/</id>
-    <link href="https://vuepress-theme.mrhope.site/zh/config/theme/"/>
-    <updated>2021-01-24T15:56:07.000Z</updated>
-    <content type="html"><![CDATA[<div><p>Tips</p>
-<p>你可以查看 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/packages/theme/types/hopeConfig.d.ts" target="_blank" rel="noopener noreferrer">types 文件</a></p>
-</div>
-<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
-<h2 id="基本选项"> 基本选项</h2>
-<div><p>Warning</p>
-<p>这些选项很重要，需要你正确配置。</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'en-US'</code></li>
-</ul>
-<p>主目录所对应的语言。</p>
-<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
-<div><p>Tips</p>
-<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
-<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/packages/shared-utils/lib/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
-</div>
-<h3 id="author"> author</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>文章显示的默认作者</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
-<h3 id="locales"> locales</h3>
-<ul>
-<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
-</ul>
-<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>当前网站部署到的域名。</p>
-<h2 id="更多配置"> 更多配置</h2>
-<ul>
-<li>
-<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="config"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">主题插件配置</title>
     <id>https://vuepress-theme.mrhope.site/zh/config/theme/plugin/</id>
     <link href="https://vuepress-theme.mrhope.site/zh/config/theme/plugin/"/>
@@ -10577,6 +10497,86 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <h2 id="namedchunks"> namedChunks</h2>
 <p><code>vuepress-named-chunks</code> 的选项，设置为 <code>false</code> 以禁用此插件。</p>
 <p>默认情况下，所有页面块均以页面标题命名，所有布局块均以其组件名称命名。</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="config"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">主题配置</title>
+    <id>https://vuepress-theme.mrhope.site/zh/config/theme/</id>
+    <link href="https://vuepress-theme.mrhope.site/zh/config/theme/"/>
+    <updated>2021-01-24T15:56:07.000Z</updated>
+    <content type="html"><![CDATA[<div><p>Tips</p>
+<p>你可以查看 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/packages/theme/types/hopeConfig.d.ts" target="_blank" rel="noopener noreferrer">types 文件</a></p>
+</div>
+<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
+<h2 id="基本选项"> 基本选项</h2>
+<div><p>Warning</p>
+<p>这些选项很重要，需要你正确配置。</p>
+</div>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
+<div><p>Tips</p>
+<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
+<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/packages/shared-utils/lib/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>文章显示的默认作者</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>当前网站部署到的域名。</p>
+<h2 id="更多配置"> 更多配置</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
+</li>
+</ul>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
@@ -12405,39 +12405,6 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">安装/使用</title>
-    <id>https://vuepress-theme.mrhope.site/zh/guide/install/</id>
-    <link href="https://vuepress-theme.mrhope.site/zh/guide/install/"/>
-    <updated>2021-01-24T15:56:07.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
-<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
-<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
-<h3 id="安装"> 安装</h3>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
-
-module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
-  <span>// your config here</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
-<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
-<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
-</div>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="instruction"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">首页</title>
     <id>https://vuepress-theme.mrhope.site/zh/guide/layout/home/</id>
     <link href="https://vuepress-theme.mrhope.site/zh/guide/layout/home/"/>
@@ -13449,6 +13416,39 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <author>
       <name>Mr.Hope</name>
     </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">安装/使用</title>
+    <id>https://vuepress-theme.mrhope.site/zh/guide/install/</id>
+    <link href="https://vuepress-theme.mrhope.site/zh/guide/install/"/>
+    <updated>2021-01-24T15:56:07.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
+<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
+<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
+
+module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
+  <span>// your config here</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
+<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
+<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
+</div>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="instruction"/>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
