@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-01-25T05:46:23.014Z</updated>
+  <updated>2021-01-25T05:48:24.386Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme.mrhope.site/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme.mrhope.site/"/>
@@ -10939,41 +10939,6 @@ $vssue-direction
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">加密功能</title>
-    <id>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</id>
-    <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/"/>
-    <updated>2021-01-25T05:44:45.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="加密功能"> 加密功能</h1>
-<p>主题支持对特定文件夹或特定的路径进行加密，也支持进行全局范围的加密。</p>
-<div><p>Warning</p>
-<p>注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。</p>
-<p>所以请不要使用该加密功能用于任何敏感、机密的文章与档案，造成的后果请你自负。</p>
-</div>
-<h2 id="加密配置"> 加密配置</h2>
-<p>你可以在 <code>themeConfig.encrypt</code> 字段配置加密选项。</p>
-<div><pre><code><span>{</span>
-  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
-  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
-  <span>// 这只会加密 config/page.html</span>
-  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>同时，你可以更加方便地在页面的 frontmatter 中配置密码</p>
-<div><pre><code><span><span>---</span>
-<span><span>password</span><span>:</span> abc1234</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Feed 支持</title>
     <id>https://vuepress-theme.mrhope.site/zh/guide/feature/feed/</id>
     <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/feed/"/>
@@ -11002,6 +10967,41 @@ $vssue-direction
 <p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
 <p>详细的选项及其默认值详见 <a href="https://vuepress-feed.mrhope.site/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
 ]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">加密功能</title>
+    <id>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</id>
+    <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/"/>
+    <updated>2021-01-25T05:44:45.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="加密功能"> 加密功能</h1>
+<p>主题支持对特定文件夹或特定的路径进行加密，也支持进行全局范围的加密。</p>
+<div><p>Warning</p>
+<p>注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。</p>
+<p>所以请不要使用该加密功能用于任何敏感、机密的文章与档案，造成的后果请你自负。</p>
+</div>
+<h2 id="加密配置"> 加密配置</h2>
+<p>你可以在 <code>themeConfig.encrypt</code> 字段配置加密选项。</p>
+<div><pre><code><span>{</span>
+  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
+  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
+  <span>// 这只会加密 config/page.html</span>
+  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>同时，你可以更加方便地在页面的 frontmatter 中配置密码</p>
+<div><pre><code><span><span>---</span>
+<span><span>password</span><span>:</span> abc1234</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -12296,6 +12296,68 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">SEO 和 Sitemap</title>
+    <id>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</id>
+    <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/"/>
+    <updated>2021-01-25T05:44:45.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
+<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
+<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<h2 id="seo"> SEO</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+<ul>
+<li>
+<p><code>siteConfig.title</code></p>
+</li>
+<li>
+<p><code>siteConfig.description</code></p>
+</li>
+<li>
+<p><code>themeConfig.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.title</code></p>
+</li>
+<li>
+<p><code>frontmatter.description</code></p>
+</li>
+<li>
+<p><code>frontmatter.image</code></p>
+</li>
+<li>
+<p><code>frontmatter.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.time</code></p>
+</li>
+<li>
+<p><code>frontmatter.tags</code></p>
+</li>
+<li>
+<p>Git 的上一次提交时间</p>
+</li>
+</ul>
+<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
+<h2 id="sitemap"> Sitemap</h2>
+<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
+<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<ul>
+<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
+<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
+<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">TS 支持</title>
     <id>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</id>
     <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/"/>
@@ -12604,6 +12666,119 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">页面</title>
+    <id>https://vuepress-theme.mrhope.site/zh/guide/layout/page/</id>
+    <link href="https://vuepress-theme.mrhope.site/zh/guide/layout/page/"/>
+    <updated>2021-01-25T05:44:45.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="页面"> 页面</h1>
+<h2 id="图标支持"> 图标支持</h2>
+<p>可以在页面的 <code>Front Matter</code> 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
+<p>该图标会在 <strong>路径导航</strong> 和 <strong>侧边栏</strong> 中使用。</p>
+<details><summary>例子</summary>
+<div><pre><code><span><span>---</span>
+<span><span>icon</span><span>:</span> Home</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
+<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
+<p>本主题添加了开箱即用的路径导航支持，配置项为 <code>breadcrumb</code>。</p>
+<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
+<p>你也可以控制路径导航的图标显示<i>Not supported content</i>，配置项为 <code>breadcrumbIcon</code>。</p>
+<div><p>Note</p>
+<p>为了保证路径导航更好的提示，建议在每一个路径下创建 readme.md 文件。</p>
+<p>否则，路径导航将因对应层级文件夹没有主页，无法生成标题与链接，而自动忽略那一层级。</p>
+</div>
+<h2 id="文章信息展示"> 文章信息展示</h2>
+<p>详见 <a href="./../feature/page-info.html">文章信息</a> 章节。</p>
+<h2 id="最后更新时间"> 最后更新时间</h2>
+<p>你可以通过 <code>themeConfig.lastUpdated</code> 选项来获取每个文件最后一次 <code>git</code> 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    lastUpdated<span>:</span> <span>"Last Updated"</span><span>,</span> <span>// string | boolean</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，<code>themeConfig.lastUpdated</code> 默认是打开的，如果给定一个字符串，它将会作为前缀显示。</p>
+<div><p>使用须知</p>
+<p>由于 <code>lastUpdated</code> 是基于 <code>git</code> 的, 所以你只能在一个基于 <code>git</code> 的项目中启用它。此外，由于使用的时间戳来自 git commit，因此它将仅在给定页的第一次提交之后显示，并且仅在该页面后续提交更改时更新。</p>
+</div>
+<h2 id="上-下一篇链接"> 上 / 下一篇链接</h2>
+<p>上一篇和下一篇文章的链接将会自动地根据当前页面的侧边栏的顺序来获取。你也可以使用 <code>themeConfig</code> 或 <code>Front matter</code> 来明确地重写或者禁用它:</p>
+<div><pre><code><span>---</span>
+<span>prev</span><span>:</span> ./some<span>-</span>other<span>-</span>page
+<span>next</span><span>:</span> <span>false</span>
+<span>---</span>
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="评论"> 评论</h2>
+<p>具体详情请见 <a href="./../feature/comment.html">评论</a> 章节。</p>
+<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
+<p>如果希望每个页面都显示页脚，需要将 <code>themeConfig.footer.display</code> 设置为 <code>true</code>。同时，你可以使用 <code>themeConfig.footer.copyright</code> 和 <code>themeConfig.content</code> 设置默认的版权信息与页脚内容。</p>
+<p>你也可以在页面的 <code>Front Matter</code> 中配置 <code>footer</code>，<code>copyrightText</code> 与 <code>medialink</code> 字段。</p>
+<ul>
+<li>
+<p><code>footer</code> 字段可以填入字符串或布尔值。</p>
+<p>将 <code>footer</code> 设置为 <code>true</code> 会显示默认的页脚文字。将 <code>footer</code> 设置为 <code>false</code> 会禁用该页面的页脚。</p>
+<p>如果你填入一个字符串，它会以 <code>v-html</code> 指令的形式插入到页脚的主位置，所以你可以填入 HTMLString。</p>
+</li>
+<li>
+<p><code>copyrightText</code> 字段可以填入本页面的版权信息，同样也支持 HTMLString。这当你引用了来自别处的文章且对方使用了特定许可是很有用的。你也可以填入 <code>false</code> 来隐藏特定页面的版权信息。</p>
+</li>
+<li>
+<p><code>medialink</code> 字段同 <code>themeConfig.blog.links</code> (<a href="./blog.html#可配置的项目">具体配置见此</a>)，你可以在特定页面配置它以展示不同的社交媒体链接，你也可以填入 <code>false</code> 来隐藏它。</p>
+</li>
+</ul>
+<details><summary>例子</summary>
+<p>启用默认的页脚文字:</p>
+<div><pre><code><span><span>---</span>
+<span><span>footer</span><span>:</span> <span>true</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>自定义页脚文字，同时不显示版权信息和媒体链接</p>
+<div><pre><code><span><span>---</span>
+<span><span>footer</span><span>:</span> This website is served by GitHub Pages
+<span>copyrightText</span><span>:</span> <span>false</span>
+<span>medialink</span><span>:</span> <span>false</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>自定义页脚的内容和版权信息与媒体链接</p>
+<div><pre><code><span><span>---</span>
+<span><span>footer</span><span>:</span> &lt;a href="https<span>:</span>//github.com/Mister<span>-</span>Hope"<span>></span>Mr.Hope&lt;/a<span>></span>
+<span>copyrightText</span><span>:</span> MIT LICENSE
+<span>medialink</span><span>:</span>
+  <span>Zhihu</span><span>:</span> https<span>:</span>//zhihu.com</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>当你在主题中设置了 <code>footer.display</code> 为 true 时，你还可以局部禁用它</p>
+<div><pre><code><span><span>---</span>
+<span><span>footer</span><span>:</span> <span>false</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>如果你希望移除默认的 footer 内容同时保持社交媒体与版权信息显示，请传入一个空字符串。</p>
+<div><pre><code><span><span>---</span>
+<span><span>footer</span><span>:</span> <span>""</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
+<h2 id="特定页面的自定义布局"> 特定页面的自定义布局</h2>
+<p>默认情况下，每个 <code>*.md</code> 文件将会被渲染在一个 <code>&lt;div class=&quot;page&quot;&gt;</code> 容器中，同时还有侧边栏、自动生成的编辑链接，以及上 / 下一篇文章的链接。如果你想要使用一个完全自定义的组件来代替当前的页面(而只保留导航栏)，你可以再次使用 <code>Front matter</code> 来指定这个组件。</p>
+<div><pre><code><span>---</span>
+<span>layout</span><span>:</span> SpecialLayout
+<span>---</span>
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>这将会为当前的页面渲染 <code>.vuepress/components/SpecialLayout.vue</code> 布局。</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="layout"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">导航栏</title>
     <id>https://vuepress-theme.mrhope.site/zh/guide/layout/navbar/</id>
     <link href="https://vuepress-theme.mrhope.site/zh/guide/layout/navbar/"/>
@@ -12812,119 +12987,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="layout"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">页面</title>
-    <id>https://vuepress-theme.mrhope.site/zh/guide/layout/page/</id>
-    <link href="https://vuepress-theme.mrhope.site/zh/guide/layout/page/"/>
-    <updated>2021-01-25T05:44:45.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="页面"> 页面</h1>
-<h2 id="图标支持"> 图标支持</h2>
-<p>可以在页面的 <code>Front Matter</code> 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
-<p>该图标会在 <strong>路径导航</strong> 和 <strong>侧边栏</strong> 中使用。</p>
-<details><summary>例子</summary>
-<div><pre><code><span><span>---</span>
-<span><span>icon</span><span>:</span> Home</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
-<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
-<p>本主题添加了开箱即用的路径导航支持，配置项为 <code>breadcrumb</code>。</p>
-<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
-<p>你也可以控制路径导航的图标显示<i>Not supported content</i>，配置项为 <code>breadcrumbIcon</code>。</p>
-<div><p>Note</p>
-<p>为了保证路径导航更好的提示，建议在每一个路径下创建 readme.md 文件。</p>
-<p>否则，路径导航将因对应层级文件夹没有主页，无法生成标题与链接，而自动忽略那一层级。</p>
-</div>
-<h2 id="文章信息展示"> 文章信息展示</h2>
-<p>详见 <a href="./../feature/page-info.html">文章信息</a> 章节。</p>
-<h2 id="最后更新时间"> 最后更新时间</h2>
-<p>你可以通过 <code>themeConfig.lastUpdated</code> 选项来获取每个文件最后一次 <code>git</code> 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    lastUpdated<span>:</span> <span>"Last Updated"</span><span>,</span> <span>// string | boolean</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，<code>themeConfig.lastUpdated</code> 默认是打开的，如果给定一个字符串，它将会作为前缀显示。</p>
-<div><p>使用须知</p>
-<p>由于 <code>lastUpdated</code> 是基于 <code>git</code> 的, 所以你只能在一个基于 <code>git</code> 的项目中启用它。此外，由于使用的时间戳来自 git commit，因此它将仅在给定页的第一次提交之后显示，并且仅在该页面后续提交更改时更新。</p>
-</div>
-<h2 id="上-下一篇链接"> 上 / 下一篇链接</h2>
-<p>上一篇和下一篇文章的链接将会自动地根据当前页面的侧边栏的顺序来获取。你也可以使用 <code>themeConfig</code> 或 <code>Front matter</code> 来明确地重写或者禁用它:</p>
-<div><pre><code><span>---</span>
-<span>prev</span><span>:</span> ./some<span>-</span>other<span>-</span>page
-<span>next</span><span>:</span> <span>false</span>
-<span>---</span>
-
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="评论"> 评论</h2>
-<p>具体详情请见 <a href="./../feature/comment.html">评论</a> 章节。</p>
-<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
-<p>如果希望每个页面都显示页脚，需要将 <code>themeConfig.footer.display</code> 设置为 <code>true</code>。同时，你可以使用 <code>themeConfig.footer.copyright</code> 和 <code>themeConfig.content</code> 设置默认的版权信息与页脚内容。</p>
-<p>你也可以在页面的 <code>Front Matter</code> 中配置 <code>footer</code>，<code>copyrightText</code> 与 <code>medialink</code> 字段。</p>
-<ul>
-<li>
-<p><code>footer</code> 字段可以填入字符串或布尔值。</p>
-<p>将 <code>footer</code> 设置为 <code>true</code> 会显示默认的页脚文字。将 <code>footer</code> 设置为 <code>false</code> 会禁用该页面的页脚。</p>
-<p>如果你填入一个字符串，它会以 <code>v-html</code> 指令的形式插入到页脚的主位置，所以你可以填入 HTMLString。</p>
-</li>
-<li>
-<p><code>copyrightText</code> 字段可以填入本页面的版权信息，同样也支持 HTMLString。这当你引用了来自别处的文章且对方使用了特定许可是很有用的。你也可以填入 <code>false</code> 来隐藏特定页面的版权信息。</p>
-</li>
-<li>
-<p><code>medialink</code> 字段同 <code>themeConfig.blog.links</code> (<a href="./blog.html#可配置的项目">具体配置见此</a>)，你可以在特定页面配置它以展示不同的社交媒体链接，你也可以填入 <code>false</code> 来隐藏它。</p>
-</li>
-</ul>
-<details><summary>例子</summary>
-<p>启用默认的页脚文字:</p>
-<div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>true</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>自定义页脚文字，同时不显示版权信息和媒体链接</p>
-<div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> This website is served by GitHub Pages
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>medialink</span><span>:</span> <span>false</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>自定义页脚的内容和版权信息与媒体链接</p>
-<div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> &lt;a href="https<span>:</span>//github.com/Mister<span>-</span>Hope"<span>></span>Mr.Hope&lt;/a<span>></span>
-<span>copyrightText</span><span>:</span> MIT LICENSE
-<span>medialink</span><span>:</span>
-  <span>Zhihu</span><span>:</span> https<span>:</span>//zhihu.com</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>当你在主题中设置了 <code>footer.display</code> 为 true 时，你还可以局部禁用它</p>
-<div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>false</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>如果你希望移除默认的 footer 内容同时保持社交媒体与版权信息显示，请传入一个空字符串。</p>
-<div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>""</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
-<h2 id="特定页面的自定义布局"> 特定页面的自定义布局</h2>
-<p>默认情况下，每个 <code>*.md</code> 文件将会被渲染在一个 <code>&lt;div class=&quot;page&quot;&gt;</code> 容器中，同时还有侧边栏、自动生成的编辑链接，以及上 / 下一篇文章的链接。如果你想要使用一个完全自定义的组件来代替当前的页面(而只保留导航栏)，你可以再次使用 <code>Front matter</code> 来指定这个组件。</p>
-<div><pre><code><span>---</span>
-<span>layout</span><span>:</span> SpecialLayout
-<span>---</span>
-
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>这将会为当前的页面渲染 <code>.vuepress/components/SpecialLayout.vue</code> 布局。</p>
-]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -13545,68 +13607,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">SEO 和 Sitemap</title>
-    <id>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</id>
-    <link href="https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/"/>
-    <updated>2021-01-25T05:44:45.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
-<ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
-</ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
-]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
