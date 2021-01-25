@@ -6,8 +6,8 @@
     <link>https://vuepress-theme.mrhope.site/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Mon, 25 Jan 2021 10:36:55 GMT</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 10:36:55 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 10:46:36 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 10:46:36 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -11554,6 +11554,56 @@ $$
 ]]></content:encoded>
     </item>
     <item>
+      <title>新增特性</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">新增特性</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
+<ul>
+<li>
+<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
+</li>
+<li>
+<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
+</li>
+<li>
+<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
+</li>
+<li>
+<p><a href="./comment.html"><strong>评论功能</strong></a></p>
+</li>
+<li>
+<p><a href="./page.html"><strong>页面增强</strong></a></p>
+</li>
+<li>
+<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
+</li>
+<li>
+<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
+</li>
+<li>
+<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./component.html"><strong>新增组件</strong></a></p>
+</li>
+<li>
+<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./icon.html"><strong>图标支持</strong></a></p>
+</li>
+<li>
+<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>TS 支持</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</guid>
@@ -12669,6 +12719,61 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>SEO 和 Sitemap</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">SEO 和 Sitemap</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
+<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
+<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<h2 id="seo"> SEO</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+<ul>
+<li>
+<p><code>siteConfig.title</code></p>
+</li>
+<li>
+<p><code>siteConfig.description</code></p>
+</li>
+<li>
+<p><code>themeConfig.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.title</code></p>
+</li>
+<li>
+<p><code>frontmatter.description</code></p>
+</li>
+<li>
+<p><code>frontmatter.image</code></p>
+</li>
+<li>
+<p><code>frontmatter.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.time</code></p>
+</li>
+<li>
+<p><code>frontmatter.tags</code></p>
+</li>
+<li>
+<p>Git 的上一次提交时间</p>
+</li>
+</ul>
+<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
+<h2 id="sitemap"> Sitemap</h2>
+<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
+<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<ul>
+<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
+<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
+<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>深色模式与主题色</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
@@ -12727,111 +12832,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>SEO 和 Sitemap</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">SEO 和 Sitemap</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
-<ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
-</ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>新增特性</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">新增特性</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
-<ul>
-<li>
-<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
-</li>
-<li>
-<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
-</li>
-<li>
-<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
-</li>
-<li>
-<p><a href="./comment.html"><strong>评论功能</strong></a></p>
-</li>
-<li>
-<p><a href="./page.html"><strong>页面增强</strong></a></p>
-</li>
-<li>
-<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
-</li>
-<li>
-<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
-</li>
-<li>
-<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./component.html"><strong>新增组件</strong></a></p>
-</li>
-<li>
-<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./icon.html"><strong>图标支持</strong></a></p>
-</li>
-<li>
-<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
-</li>
-</ul>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
