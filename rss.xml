@@ -6,8 +6,8 @@
     <link>https://vuepress-theme.mrhope.site/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Mon, 25 Jan 2021 05:28:32 GMT</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 05:28:32 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 05:38:24 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 05:38:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -56,6 +56,129 @@
 <p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
 <p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
 <p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</link>
+      <guid>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Nature</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -312,129 +435,6 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
       <enclosure url="https://vuepress-theme.mrhope.site/logo.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Nature</title>
-      <link>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</link>
-      <guid>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Nature</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>Object</title>
@@ -4850,9 +4850,6 @@ $$
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
 <p>The theme will enable progressive web app support using <code>@mr-hope/vuepress-plugin-pwa</code> by default. If you do not need this feature or want to use other pwa plugins, you can set the <code>themeConfig.pwa</code> to <code>false</code> to disable the plugin.</p>
-<div><p>Tips</p>
-<p>You don’t need to use <code>head</code> function to handle your head option while using vuepress-theme-hope, <code>config</code> function in theme will do the job for you. The only thing you need is to set <code>themeConfig.pwa</code>.</p>
-</div>
 <h2 id="content-cache-and-update"> Content Cache and update</h2>
 <p>After the Service worker obtains the content update, a popup will be displayed in the bottom right corner, prompting the user that new content is available and allowing the user to trigger the update.</p>
 <p>The default language of the popup will automatically be set to <code>baseLang</code> configured in <code>themeConfig</code>.</p>
@@ -10275,6 +10272,34 @@ $vssue-direction
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>加密功能</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">加密功能</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="加密功能"> 加密功能</h1>
+<p>主题支持对特定文件夹或特定的路径进行加密，也支持进行全局范围的加密。</p>
+<div><p>Warning</p>
+<p>注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。</p>
+<p>所以请不要使用该加密功能用于任何敏感、机密的文章与档案，造成的后果请你自负。</p>
+</div>
+<h2 id="加密配置"> 加密配置</h2>
+<p>你可以在 <code>themeConfig.encrypt</code> 字段配置加密选项。</p>
+<div><pre><code><span>{</span>
+  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
+  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
+  <span>// 这只会加密 config/page.html</span>
+  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>同时，你可以更加方便地在页面的 frontmatter 中配置密码</p>
+<div><pre><code><span><span>---</span>
+<span><span>password</span><span>:</span> abc1234</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>新增组件</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/component/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/component/</guid>
@@ -10303,34 +10328,6 @@ $vssue-direction
 <p><code>vuepress-theme-hope</code> 添加了一个返回顶部控件，默认情况下将在下滑 300px 后显示。</p>
 <p>该内容的配置项为 <code>backToTop</code>。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>加密功能</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/encrypt/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">加密功能</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="加密功能"> 加密功能</h1>
-<p>主题支持对特定文件夹或特定的路径进行加密，也支持进行全局范围的加密。</p>
-<div><p>Warning</p>
-<p>注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。</p>
-<p>所以请不要使用该加密功能用于任何敏感、机密的文章与档案，造成的后果请你自负。</p>
-</div>
-<h2 id="加密配置"> 加密配置</h2>
-<p>你可以在 <code>themeConfig.encrypt</code> 字段配置加密选项。</p>
-<div><pre><code><span>{</span>
-  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
-  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
-  <span>// 这只会加密 config/page.html</span>
-  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>同时，你可以更加方便地在页面的 frontmatter 中配置密码</p>
-<div><pre><code><span><span>---</span>
-<span><span>password</span><span>:</span> abc1234</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Feed 支持</title>
@@ -11542,9 +11539,6 @@ $$
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
 <p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<div><p>Tips</p>
-<p>在使用 vuepress-theme-hope 时，您无需使用 <code>head</code> 函数来处理 head 选项，主题中的 <code>config</code> 函数将为您完成这项工作。您唯一需要做的就是设置 <code>themeConfig.pwa</code>。</p>
-</div>
 <h2 id="内容缓存和更新"> 内容缓存和更新</h2>
 <p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
 <p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
@@ -11706,6 +11700,66 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>深色模式与主题色</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
+<h2 id="深色模式"> 深色模式</h2>
+<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
+<p><img src="./assets/darkmode.png" alt="深色模式"></p>
+<p>深色模式支持选项:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
+<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
+<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
+<li><code>'disable'</code>: 禁用深色模式</li>
+</ul>
+<h2 id="主题色"> 主题色</h2>
+<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
+<h3 id="禁用功能"> 禁用功能</h3>
+<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
+<h3 id="自定义颜色"> 自定义颜色</h3>
+<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
+<details><summary>例子</summary>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    themeColor<span>:</span> <span>{</span>
+      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
+      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
+      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
+      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
+<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
+<details><summary>例子</summary>
+<div><pre><code><span>// .vuepress/styles/palette.styl</span>
+<span><span>$colorPicker</span> <span>=</span> <span>{</span>
+  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
+  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
+  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
+  <span>orange</span><span>:</span> <span>#fb9b5f</span>
+<span>}</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
+<h2 id="全屏按钮"> 全屏按钮</h2>
+<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
+<div><p>Tips</p>
+<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
+</div>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>首页</title>
@@ -12675,64 +12729,54 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>深色模式与主题色</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
+      <title>新增特性</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">新增特性</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
-<h2 id="深色模式"> 深色模式</h2>
-<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
-<p><img src="./assets/darkmode.png" alt="深色模式"></p>
-<p>深色模式支持选项:</p>
+      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
 <ul>
-<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
-<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
-<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
-<li><code>'disable'</code>: 禁用深色模式</li>
+<li>
+<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
+</li>
+<li>
+<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
+</li>
+<li>
+<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
+</li>
+<li>
+<p><a href="./comment.html"><strong>评论功能</strong></a></p>
+</li>
+<li>
+<p><a href="./page.html"><strong>页面增强</strong></a></p>
+</li>
+<li>
+<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
+</li>
+<li>
+<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
+</li>
+<li>
+<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./component.html"><strong>新增组件</strong></a></p>
+</li>
+<li>
+<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./icon.html"><strong>图标支持</strong></a></p>
+</li>
+<li>
+<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
+</li>
 </ul>
-<h2 id="主题色"> 主题色</h2>
-<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
-<h3 id="禁用功能"> 禁用功能</h3>
-<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
-<h3 id="自定义颜色"> 自定义颜色</h3>
-<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
-<details><summary>例子</summary>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    themeColor<span>:</span> <span>{</span>
-      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
-      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
-      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
-      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
-<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
-<details><summary>例子</summary>
-<div><pre><code><span>// .vuepress/styles/palette.styl</span>
-<span><span>$colorPicker</span> <span>=</span> <span>{</span>
-  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
-  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
-  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
-  <span>orange</span><span>:</span> <span>#fb9b5f</span>
-<span>}</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
-<h2 id="全屏按钮"> 全屏按钮</h2>
-<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
-<div><p>Tips</p>
-<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
-</div>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+]]></content:encoded>
     </item>
     <item>
       <title>SEO 和 Sitemap</title>
@@ -12786,56 +12830,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
 <li><code>sitemap.exclude</code>: 是否不包含此页面</li>
 <li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>新增特性</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">新增特性</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
-<ul>
-<li>
-<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
-</li>
-<li>
-<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
-</li>
-<li>
-<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
-</li>
-<li>
-<p><a href="./comment.html"><strong>评论功能</strong></a></p>
-</li>
-<li>
-<p><a href="./page.html"><strong>页面增强</strong></a></p>
-</li>
-<li>
-<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
-</li>
-<li>
-<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
-</li>
-<li>
-<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./component.html"><strong>新增组件</strong></a></p>
-</li>
-<li>
-<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./icon.html"><strong>图标支持</strong></a></p>
-</li>
-<li>
-<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
-</li>
 </ul>
 ]]></content:encoded>
     </item>
