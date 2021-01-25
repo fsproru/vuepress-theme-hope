@@ -6,8 +6,8 @@
     <link>https://vuepress-theme.mrhope.site/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Mon, 25 Jan 2021 13:11:18 GMT</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 13:11:18 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 13:13:57 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 13:13:57 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -312,6 +312,129 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
       <enclosure url="https://vuepress-theme.mrhope.site/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</link>
+      <guid>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Nature</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>Object</title>
@@ -3522,129 +3645,6 @@ $vssue-direction
 ]]></content:encoded>
     </item>
     <item>
-      <title>Nature</title>
-      <link>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</link>
-      <guid>https://vuepress-theme.mrhope.site/basic/markdown/emoji/nature/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Nature</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Encryption function</title>
       <link>https://vuepress-theme.mrhope.site/guide/feature/encrypt/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/feature/encrypt/</guid>
@@ -3671,6 +3671,37 @@ $vssue-direction
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Feed Support</title>
+      <link>https://vuepress-theme.mrhope.site/guide/feature/feed/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/feature/feed/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Feed Support</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>The theme will enable feed generation support using <code>@mr-hope/vuepress-plugin-feed</code> by default. If you do not need this feature, you can set the <code>themeConfig.feed</code> to <code>false</code> to disable the plugin.</p>
+<p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
+<ul>
+<li>Atom 1.0 (Default output: atom.xml)</li>
+<li>JSON 1.1 (Default output: feed.json)</li>
+<li>RSS 2.0 (Default output: rss.xml)</li>
+</ul>
+<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files.</p>
+<h2 id="channel-settings"> Channel Settings</h2>
+<p>You can customize information of feed channel by setting the <code>channel</code> option.</p>
+<p>We recommend you to set the following options:</p>
+<ul>
+<li>Convert the date when the feed was created to ISOString and write it to <code>channel.pubDate</code></li>
+<li>Set the content update cycle (unit: minute) in <code>channel.ttl</code></li>
+</ul>
+<p>For detailed options and their values, please see <a href="https://vuepress-feed.mrhope.site/config/channel/" target="_blank" rel="noopener noreferrer">Feed Channel Config</a></p>
+<h2 id="project-settings"> Project Settings</h2>
+<p>By default, all articles will be added to the feed stream. You can control the generation of feed items for specific articles by configuring the feed options in frontmatter.</p>
+<p>If you want to remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
+<p>You can also add content directly to the feed plugin via <code>frontmatter.feed</code>. For detailed options and their default values, please see <a href="https://vuepress-feed.mrhope.site/config/item/" target="_blank" rel="noopener noreferrer">Feed Item Config</a></p>
+<h2 id="output-configuration"> Output configuration</h2>
+<p>You can use the <code>output</code> in the configuration options to decide which feed file formats to output and their location.</p>
+<p>For detailed options and their default values, please refer to <a href="https://vuepress-feed.mrhope.site/config/#output" target="_blank" rel="noopener noreferrer">Feed Output config</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Icon support</title>
@@ -3746,37 +3777,6 @@ $vssue-direction
 <li>Icon will have <code>iconfont</code> class name by default</li>
 <li>The prefix of the icon class is <code>icon-</code> by default, which can be changed in the <code>iconPrefix</code> field in themeConfig</li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Feed Support</title>
-      <link>https://vuepress-theme.mrhope.site/guide/feature/feed/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/feature/feed/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Feed Support</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>The theme will enable feed generation support using <code>@mr-hope/vuepress-plugin-feed</code> by default. If you do not need this feature, you can set the <code>themeConfig.feed</code> to <code>false</code> to disable the plugin.</p>
-<p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
-<ul>
-<li>Atom 1.0 (Default output: atom.xml)</li>
-<li>JSON 1.1 (Default output: feed.json)</li>
-<li>RSS 2.0 (Default output: rss.xml)</li>
-</ul>
-<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files.</p>
-<h2 id="channel-settings"> Channel Settings</h2>
-<p>You can customize information of feed channel by setting the <code>channel</code> option.</p>
-<p>We recommend you to set the following options:</p>
-<ul>
-<li>Convert the date when the feed was created to ISOString and write it to <code>channel.pubDate</code></li>
-<li>Set the content update cycle (unit: minute) in <code>channel.ttl</code></li>
-</ul>
-<p>For detailed options and their values, please see <a href="https://vuepress-feed.mrhope.site/config/channel/" target="_blank" rel="noopener noreferrer">Feed Channel Config</a></p>
-<h2 id="project-settings"> Project Settings</h2>
-<p>By default, all articles will be added to the feed stream. You can control the generation of feed items for specific articles by configuring the feed options in frontmatter.</p>
-<p>If you want to remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
-<p>You can also add content directly to the feed plugin via <code>frontmatter.feed</code>. For detailed options and their default values, please see <a href="https://vuepress-feed.mrhope.site/config/item/" target="_blank" rel="noopener noreferrer">Feed Item Config</a></p>
-<h2 id="output-configuration"> Output configuration</h2>
-<p>You can use the <code>output</code> in the configuration options to decide which feed file formats to output and their location.</p>
-<p>For detailed options and their default values, please refer to <a href="https://vuepress-feed.mrhope.site/config/#output" target="_blank" rel="noopener noreferrer">Feed Output config</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4428,6 +4428,110 @@ c2(no)->op2->e
 <div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>Presentation support</title>
+      <link>https://vuepress-theme.mrhope.site/guide/feature/markdown/presentation/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/feature/markdown/presentation/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Presentation support</source>
+      <content:encoded><![CDATA[<h1 id="presentation-support"> Presentation support</h1>
+
+<p>Let the Markdown file in your VuePress site support presentation.</p>
+<h2 id="configuration"> Configuration</h2>
+<div><div><br><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    mdEnhance<span>:</span> <span>{</span>
+      <span>// or you can pass an object to config reveal.js</span>
+      presentation<span>:</span> <span>true</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>This plugin is using <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> to support this feature.</p>
+<h2 id="syntax"> Syntax</h2>
+<ul>
+<li>Use <code>---</code> to split slides</li>
+<li>Use <code>--</code> to split the slides second time (vertical display)</li>
+</ul>
+<div><pre><code>@slidestart [theme]
+
+<span>&lt;!-- slide1 --></span>
+
+<span>---</span>
+
+<span>&lt;!-- slide2 --></span>
+
+<span>---</span>
+
+<span>&lt;!-- slide3 --></span>
+
+@slideend
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>Theme available:</p>
+<ul>
+<li><code>auto</code> (Default)</li>
+<li><code>black</code></li>
+<li><code>white</code></li>
+<li><code>league</code></li>
+<li><code>beige</code></li>
+<li><code>sky</code></li>
+<li><code>night</code></li>
+<li><code>serif</code></li>
+<li><code>simple</code></li>
+<li><code>solarized</code></li>
+<li><code>blood</code></li>
+<li><code>moon</code></li>
+</ul>
+<h2 id="demo"> Demo</h2>
+<i>Not supported content</i><div><pre><code>@slidestart
+
+<span><span>##</span> Slide 1</span>
+
+A paragraph with some text and a <span>[<span>link</span>](<span>https://mrhope.site</span>)</span>
+
+<span>---</span>
+
+<span><span>##</span> Slide 2</span>
+
+<span>-</span> Item 1
+<span>-</span> Item 2
+
+<span>---</span>
+
+<span><span>##</span> Slide 3.1</span>
+
+<span><span>```</span><span>js</span>
+<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> a <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>1</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span>```</span></span>
+
+--
+
+<span><span>##</span> Slide 3.2</span>
+
+$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$
+
+@slideend
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="options"> Options</h2>
+<p>You can set <code>reveal</code> to pass options to reveal.js per page in frontmatter, you can also set <code>presentation</code> in plugin options to set reveal.js globally.</p>
+<p>For more options, see <a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>. For more usage, see <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js documatation</a></p>
+<h2 id="themes"> Themes</h2>
+
+<h3 id="auto"> Auto</h3>
+<i>Not supported content</i><h3 id="black"> Black</h3>
+<i>Not supported content</i><h3 id="white"> White</h3>
+<i>Not supported content</i><h3 id="league"> League</h3>
+<i>Not supported content</i><h3 id="beige"> Beige</h3>
+<i>Not supported content</i><h3 id="sky"> Sky</h3>
+<i>Not supported content</i><h3 id="night"> Night</h3>
+<i>Not supported content</i><h3 id="serif"> Serif</h3>
+<i>Not supported content</i><h3 id="simple"> Simple</h3>
+<i>Not supported content</i><h3 id="solarized"> Solarized</h3>
+<i>Not supported content</i><h3 id="blood"> Blood</h3>
+<i>Not supported content</i><h3 id="moon"> Moon</h3>
+<i>Not supported content</i>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Markdown Enhance</title>
       <link>https://vuepress-theme.mrhope.site/guide/feature/markdown/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/feature/markdown/</guid>
@@ -4535,110 +4639,6 @@ c2(no)->op2->e
 </li>
 </ol>
 </section>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Presentation support</title>
-      <link>https://vuepress-theme.mrhope.site/guide/feature/markdown/presentation/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/feature/markdown/presentation/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Presentation support</source>
-      <content:encoded><![CDATA[<h1 id="presentation-support"> Presentation support</h1>
-
-<p>Let the Markdown file in your VuePress site support presentation.</p>
-<h2 id="configuration"> Configuration</h2>
-<div><div><br><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    mdEnhance<span>:</span> <span>{</span>
-      <span>// or you can pass an object to config reveal.js</span>
-      presentation<span>:</span> <span>true</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>This plugin is using <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> to support this feature.</p>
-<h2 id="syntax"> Syntax</h2>
-<ul>
-<li>Use <code>---</code> to split slides</li>
-<li>Use <code>--</code> to split the slides second time (vertical display)</li>
-</ul>
-<div><pre><code>@slidestart [theme]
-
-<span>&lt;!-- slide1 --></span>
-
-<span>---</span>
-
-<span>&lt;!-- slide2 --></span>
-
-<span>---</span>
-
-<span>&lt;!-- slide3 --></span>
-
-@slideend
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>Theme available:</p>
-<ul>
-<li><code>auto</code> (Default)</li>
-<li><code>black</code></li>
-<li><code>white</code></li>
-<li><code>league</code></li>
-<li><code>beige</code></li>
-<li><code>sky</code></li>
-<li><code>night</code></li>
-<li><code>serif</code></li>
-<li><code>simple</code></li>
-<li><code>solarized</code></li>
-<li><code>blood</code></li>
-<li><code>moon</code></li>
-</ul>
-<h2 id="demo"> Demo</h2>
-<i>Not supported content</i><div><pre><code>@slidestart
-
-<span><span>##</span> Slide 1</span>
-
-A paragraph with some text and a <span>[<span>link</span>](<span>https://mrhope.site</span>)</span>
-
-<span>---</span>
-
-<span><span>##</span> Slide 2</span>
-
-<span>-</span> Item 1
-<span>-</span> Item 2
-
-<span>---</span>
-
-<span><span>##</span> Slide 3.1</span>
-
-<span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> a <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>1</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
-<span>```</span></span>
-
---
-
-<span><span>##</span> Slide 3.2</span>
-
-$$
-J(\theta_0,\theta_1) = \sum_{i=0}
-$$
-
-@slideend
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="options"> Options</h2>
-<p>You can set <code>reveal</code> to pass options to reveal.js per page in frontmatter, you can also set <code>presentation</code> in plugin options to set reveal.js globally.</p>
-<p>For more options, see <a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>. For more usage, see <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js documatation</a></p>
-<h2 id="themes"> Themes</h2>
-
-<h3 id="auto"> Auto</h3>
-<i>Not supported content</i><h3 id="black"> Black</h3>
-<i>Not supported content</i><h3 id="white"> White</h3>
-<i>Not supported content</i><h3 id="league"> League</h3>
-<i>Not supported content</i><h3 id="beige"> Beige</h3>
-<i>Not supported content</i><h3 id="sky"> Sky</h3>
-<i>Not supported content</i><h3 id="night"> Night</h3>
-<i>Not supported content</i><h3 id="serif"> Serif</h3>
-<i>Not supported content</i><h3 id="simple"> Simple</h3>
-<i>Not supported content</i><h3 id="solarized"> Solarized</h3>
-<i>Not supported content</i><h3 id="blood"> Blood</h3>
-<i>Not supported content</i><h3 id="moon"> Moon</h3>
-<i>Not supported content</i>
 ]]></content:encoded>
     </item>
     <item>
@@ -5689,26 +5689,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Slide</title>
-      <link>https://vuepress-theme.mrhope.site/guide/layout/slides/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/layout/slides/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Slide</source>
-      <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="slide"> Slide</h1>
-<p><code>vuepress-theme-hope</code> allows you to add slides pages.</p>
-<p>You need to set <code>layout: Slide</code> in the frontmatter of the corresponding page to enable the slides page.</p>
-<p>Also, you should enable presentation feature in <code>vuepress-plugin-md-enhance</code> by setting <code>themeConfig.mdEnhance.enableAll</code> or <code>themeConfig.mdEnhance.presentation</code>.</p>
-<p><img src="./assets/slides.png" alt="Slide page screenshot"></p>
-<p>You should only include a single slide syntax on this page to avoid other problems.</p>
-<div><pre><code>@slidestart [your theme]
-
-// your slides
-
-@slideend
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>Sidebar</title>
       <link>https://vuepress-theme.mrhope.site/guide/layout/sidebar/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/layout/sidebar/</guid>
@@ -5963,6 +5943,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br></div></div></details>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>Slide</title>
+      <link>https://vuepress-theme.mrhope.site/guide/layout/slides/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/layout/slides/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Slide</source>
+      <category>layout</category>
+      <content:encoded><![CDATA[<h1 id="slide"> Slide</h1>
+<p><code>vuepress-theme-hope</code> allows you to add slides pages.</p>
+<p>You need to set <code>layout: Slide</code> in the frontmatter of the corresponding page to enable the slides page.</p>
+<p>Also, you should enable presentation feature in <code>vuepress-plugin-md-enhance</code> by setting <code>themeConfig.mdEnhance.enableAll</code> or <code>themeConfig.mdEnhance.presentation</code>.</p>
+<p><img src="./assets/slides.png" alt="Slide page screenshot"></p>
+<p>You should only include a single slide syntax on this page to avoid other problems.</p>
+<div><pre><code>@slidestart [your theme]
+
+// your slides
+
+@slideend
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Introduction</title>
@@ -11554,66 +11554,6 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>深色模式与主题色</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
-<h2 id="深色模式"> 深色模式</h2>
-<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
-<p><img src="./assets/darkmode.png" alt="深色模式"></p>
-<p>深色模式支持选项:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
-<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
-<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
-<li><code>'disable'</code>: 禁用深色模式</li>
-</ul>
-<h2 id="主题色"> 主题色</h2>
-<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
-<h3 id="禁用功能"> 禁用功能</h3>
-<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
-<h3 id="自定义颜色"> 自定义颜色</h3>
-<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
-<details><summary>例子</summary>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    themeColor<span>:</span> <span>{</span>
-      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
-      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
-      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
-      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
-<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
-<details><summary>例子</summary>
-<div><pre><code><span>// .vuepress/styles/palette.styl</span>
-<span><span>$colorPicker</span> <span>=</span> <span>{</span>
-  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
-  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
-  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
-  <span>orange</span><span>:</span> <span>#fb9b5f</span>
-<span>}</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
-<h2 id="全屏按钮"> 全屏按钮</h2>
-<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
-<div><p>Tips</p>
-<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
-</div>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>TS 支持</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</guid>
@@ -11649,6 +11589,32 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
 <div><p>Note</p>
 <p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>安装/使用</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/install/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/install/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">安装/使用</source>
+      <category>instruction</category>
+      <content:encoded><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
+<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
+<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
+
+module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
+  <span>// your config here</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
+<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
+<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
 </div>
 ]]></content:encoded>
     </item>
@@ -11733,32 +11699,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li><code>desc</code>: 项目描述，选填</li>
 <li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>安装/使用</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/install/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/install/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">安装/使用</source>
-      <category>instruction</category>
-      <content:encoded><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
-<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
-<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
-<h3 id="安装"> 安装</h3>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
-
-module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
-  <span>// your config here</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
-<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
-<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -12510,6 +12450,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>幻灯片</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/layout/slides/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/layout/slides/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">幻灯片</source>
+      <category>layout</category>
+      <content:encoded><![CDATA[<h1 id="幻灯片"> 幻灯片</h1>
+<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
+<p>另外，您应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能。</p>
+<p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
+<p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
+<div><pre><code>@slidestart [your theme]
+
+// your slides
+
+@slideend
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>介绍</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/</guid>
@@ -12685,26 +12645,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>幻灯片</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/layout/slides/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/layout/slides/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">幻灯片</source>
-      <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="幻灯片"> 幻灯片</h1>
-<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
-<p>另外，您应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能。</p>
-<p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
-<p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
-<div><pre><code>@slidestart [your theme]
-
-// your slides
-
-@slideend
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>vuepress-theme-hope</title>
       <link>https://vuepress-theme.mrhope.site/zh/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/</guid>
@@ -12832,6 +12772,66 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>深色模式与主题色</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
+<h2 id="深色模式"> 深色模式</h2>
+<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
+<p><img src="./assets/darkmode.png" alt="深色模式"></p>
+<p>深色模式支持选项:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
+<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
+<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
+<li><code>'disable'</code>: 禁用深色模式</li>
+</ul>
+<h2 id="主题色"> 主题色</h2>
+<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
+<h3 id="禁用功能"> 禁用功能</h3>
+<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
+<h3 id="自定义颜色"> 自定义颜色</h3>
+<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
+<details><summary>例子</summary>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    themeColor<span>:</span> <span>{</span>
+      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
+      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
+      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
+      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
+<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
+<details><summary>例子</summary>
+<div><pre><code><span>// .vuepress/styles/palette.styl</span>
+<span><span>$colorPicker</span> <span>=</span> <span>{</span>
+  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
+  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
+  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
+  <span>orange</span><span>:</span> <span>#fb9b5f</span>
+<span>}</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
+<h2 id="全屏按钮"> 全屏按钮</h2>
+<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
+<div><p>Tips</p>
+<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
+</div>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
