@@ -6,8 +6,8 @@
     <link>https://vuepress-theme.mrhope.site/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Mon, 25 Jan 2021 13:42:43 GMT</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 13:42:43 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2021 06:11:40 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2021 06:11:40 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4823,6 +4823,26 @@ $$
 ]]></content:encoded>
     </item>
     <item>
+      <title>Page Enhance</title>
+      <link>https://vuepress-theme.mrhope.site/guide/feature/page/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/feature/page/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Page Enhance</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="page-enhance"> Page Enhance</h1>
+<h2 id="breadcrumb"> Breadcrumb <i>Not supported content</i></h2>
+<p>See <a href="./../layout/page.html#breadcrumb">Layout → Page → Breadcrumb Section</a></p>
+<h2 id="picture-preview"> Picture Preview</h2>
+<p>We supports clicking to preview and zooming the picture, while supporting the sliding browsing of the page picture and the sharing and downloading of the picture too. You can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
+<p>For more options, please see <a href="https://vuepress-photo-swipe.mrhope.site/config/" target="_blank" rel="noopener noreferrer">photo-swipe plugin configuration</a></p>
+<h2 id="code-copy"> Code Copy</h2>
+<p>We will add a copy button to the right bottom corner of each code block, which allows you to click and copy the code.</p>
+<p>The button is displayed only in desktop mode by default.</p>
+<p>For more options, please see <a href="https://vuepress-copy-code.mrhope.site/config/" target="_blank" rel="noopener noreferrer">copy-code plugin docs</a></p>
+<h2 id="footer-support"> Footer Support <i>Not supported content</i></h2>
+<p>See <a href="./../layout/page.html#footer-support">Layout → Page → Footer Section</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>PWA</title>
       <link>https://vuepress-theme.mrhope.site/guide/feature/pwa/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/feature/pwa/</guid>
@@ -4842,26 +4862,6 @@ $$
 <p>To prevent from including large files in your precache list, any resources larger than 2MB and any pictures larger than 1MB will be dropped. You can change the size limit by setting <code>themeConfig.pwa.maxSize</code> and <code>themeConfig.pwa.maxPicSize</code>.</p>
 <h2 id="more"> More</h2>
 <p>For more detail, see <a href="https://vuepress-pwa.mrhope.site/" target="_blank" rel="noopener noreferrer">pwa plugin documatation</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Page Enhance</title>
-      <link>https://vuepress-theme.mrhope.site/guide/feature/page/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/feature/page/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Page Enhance</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="page-enhance"> Page Enhance</h1>
-<h2 id="breadcrumb"> Breadcrumb <i>Not supported content</i></h2>
-<p>See <a href="./../layout/page.html#breadcrumb">Layout → Page → Breadcrumb Section</a></p>
-<h2 id="picture-preview"> Picture Preview</h2>
-<p>We supports clicking to preview and zooming the picture, while supporting the sliding browsing of the page picture and the sharing and downloading of the picture too. You can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
-<p>For more options, please see <a href="https://vuepress-photo-swipe.mrhope.site/config/" target="_blank" rel="noopener noreferrer">photo-swipe plugin configuration</a></p>
-<h2 id="code-copy"> Code Copy</h2>
-<p>We will add a copy button to the right bottom corner of each code block, which allows you to click and copy the code.</p>
-<p>The button is displayed only in desktop mode by default.</p>
-<p>For more options, please see <a href="https://vuepress-copy-code.mrhope.site/config/" target="_blank" rel="noopener noreferrer">copy-code plugin docs</a></p>
-<h2 id="footer-support"> Footer Support <i>Not supported content</i></h2>
-<p>See <a href="./../layout/page.html#footer-support">Layout → Page → Footer Section</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -5180,138 +5180,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>Home Page</title>
-      <link>https://vuepress-theme.mrhope.site/guide/layout/home/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/layout/home/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Home Page</source>
-      <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="home-page"> Home Page</h1>
-<p><code>vuepress-theme-hope</code> improves the default home page.</p>
-<p>To use it, set <code>home: true</code> in page frontmatter. Any extra content after the <code>YAML front matter</code> will be parsed as normal Markdown and rendered after the features section.</p>
-<p><img src="./assets/home.png" alt="Screenshot"></p>
-<h2 id="item-style"> Item style</h2>
-<p>The frontmatter parameters that can be configured are as follows:</p>
-<h3 id="home"> home</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-</ul>
-<p>Enable homepage style when set to <code>true</code></p>
-<h3 id="title"> title</h3>
-<ul>
-<li>Type: <code>string | false</code></li>
-<li>Default: <code>'Hello'</code></li>
-</ul>
-<p>Title, won’t display when set to <code>false</code></p>
-<h3 id="heroimage"> heroImage</h3>
-<ul>
-<li>Type: <code>string</code></li>
-</ul>
-<p>Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder)</p>
-<h3 id="darkheroimage"> darkHeroImage</h3>
-<ul>
-<li>类型: <code>string</code></li>
-</ul>
-<p>Darkmode Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder), will be the same as <code>heroImage</code> by default.</p>
-<h3 id="herotext"> heroText</h3>
-<ul>
-<li>Type: <code>string</code></li>
-</ul>
-<p>Home icon alt text</p>
-<h3 id="tagline"> tagline</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'Welcome to your VuePress site'</code></li>
-</ul>
-<p>Append text</p>
-<h3 id="action"> action</h3>
-<ul>
-<li>Type: <code>ActionConfig | ActionConfig[]</code></li>
-</ul>
-<p><code>ActionConfig</code> structure:</p>
-<ul>
-<li><code>text</code>: Button text</li>
-<li><code>link</code>: Button link</li>
-</ul>
-<h3 id="features"> features</h3>
-<ul>
-<li>Type: <code>Feature[]</code></li>
-</ul>
-<p>Structure of <code>Feature</code>:</p>
-<ul>
-<li><code>title</code>: <code>string</code> title</li>
-<li><code>details</code>: <code>string</code> details</li>
-<li><code>link</code> (optional): <code>string</code> link address</li>
-</ul>
-<p>Feature description</p>
-<h2 id="demo"> Demo</h2>
-<div><pre><code><span>---</span>
-<span>home</span><span>:</span> <span>true</span>
-<span>icon</span><span>:</span> home
-<span>title</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
-<span>heroImage</span><span>:</span> /logo.svg
-<span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
-<span>tagline</span><span>:</span> A vuepress theme with tons of features✨
-<span>action</span><span>:</span>
-  <span>-</span> <span>text</span><span>:</span> Get Started 💡
-    <span>link</span><span>:</span> /guide/
-    <span>type</span><span>:</span> primary
-
-  <span>-</span> <span>text</span><span>:</span> Config 🛠
-    <span>link</span><span>:</span> /config/
-
-<span>features</span><span>:</span>
-  <span>-</span> <span>title</span><span>:</span> Pageviews and comments 💬
-    <span>details</span><span>:</span> Start pageview statistics and comment support with Valine and Vssue
-    <span>link</span><span>:</span> /guide/feature/comment/
-
-  <span>-</span> <span>title</span><span>:</span> Article information display ℹ
-    <span>details</span><span>:</span> Add author<span>,</span> writing date<span>,</span> reading time<span>,</span> word count and other information to your article
-    <span>link</span><span>:</span> /guide/feature/page<span>-</span>info/
-
-  <span>-</span> <span>title</span><span>:</span> Markdown Enhance 🧰
-    <span>details</span><span>:</span> Add align<span>,</span> sup/sub script<span>,</span> footnote<span>,</span> tex<span>,</span> flowchart<span>,</span> mark and presentation support in markdown
-    <span>link</span><span>:</span> /guide/feature/markdown/
-
-  <span>-</span> <span>title</span><span>:</span> Blog support 📝
-    <span>details</span><span>:</span> Add date<span>,</span> tags and category to your articles<span>,</span> then article<span>,</span> tag<span>,</span> category and timeline list will be auto generated
-    <span>link</span><span>:</span> /guide/feature/blog/
-
-  <span>-</span> <span>title</span><span>:</span> Article Encryption 🔐
-    <span>details</span><span>:</span> Encrypt you article based on path and folders<span>,</span> so that only the one you want could see them
-    <span>link</span><span>:</span> /guide/feature/blog/
-
-  <span>-</span> <span>title</span><span>:</span> Custom theme color 🎨
-    <span>details</span><span>:</span> Supports custom theme colors and allows users to switch between preset theme colors
-    <span>link</span><span>:</span> /guide/feature/themecolor/
-
-  <span>-</span> <span>title</span><span>:</span> Dark Mode 🌙
-    <span>details</span><span>:</span> Switch between light and dark modes freely
-    <span>link</span><span>:</span> /guide/feature/darkmode/
-
-  <span>-</span> <span>title</span><span>:</span> SEO enhancement and Sitemap 🗺
-    <span>details</span><span>:</span> The theme can automatically generate a Sitemap for your website<span>,</span> and optimize the resulting web page for search engines.
-    <span>link</span><span>:</span> /guide/feature/seo<span>-</span>sitemap/
-
-  <span>-</span> <span>title</span><span>:</span> PWA support 📲
-    <span>details</span><span>:</span> The built<span>-</span>in PWA plugin will make your website more like an APP.
-    <span>link</span><span>:</span> /guide/feature/pwa/
-
-  <span>-</span> <span>title</span><span>:</span> TS support 🔧
-    <span>details</span><span>:</span> Turn on TypeScript support for your VuePress
-    <span>link</span><span>:</span> /guide/feature/typescript/
-
-  <span>-</span> <span>title</span><span>:</span> More new features ✨
-    <span>details</span><span>:</span> Including icon support<span>,</span> path navigation<span>,</span> footer support<span>,</span> fullscreen button<span>,</span> blog homepage<span>,</span> etc.
-    <span>link</span><span>:</span> /guide/feature/
-
-<span>footer</span><span>:</span> MIT Licensed <span>|</span> Copyright © 2019<span>-</span>present Mr.Hope
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>---</span>
-
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>NavBar</title>
       <link>https://vuepress-theme.mrhope.site/guide/layout/navbar/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/layout/navbar/</guid>
@@ -5541,6 +5409,138 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Home Page</title>
+      <link>https://vuepress-theme.mrhope.site/guide/layout/home/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/layout/home/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Home Page</source>
+      <category>layout</category>
+      <content:encoded><![CDATA[<h1 id="home-page"> Home Page</h1>
+<p><code>vuepress-theme-hope</code> improves the default home page.</p>
+<p>To use it, set <code>home: true</code> in page frontmatter. Any extra content after the <code>YAML front matter</code> will be parsed as normal Markdown and rendered after the features section.</p>
+<p><img src="./assets/home.png" alt="Screenshot"></p>
+<h2 id="item-style"> Item style</h2>
+<p>The frontmatter parameters that can be configured are as follows:</p>
+<h3 id="home"> home</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+</ul>
+<p>Enable homepage style when set to <code>true</code></p>
+<h3 id="title"> title</h3>
+<ul>
+<li>Type: <code>string | false</code></li>
+<li>Default: <code>'Hello'</code></li>
+</ul>
+<p>Title, won’t display when set to <code>false</code></p>
+<h3 id="heroimage"> heroImage</h3>
+<ul>
+<li>Type: <code>string</code></li>
+</ul>
+<p>Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder)</p>
+<h3 id="darkheroimage"> darkHeroImage</h3>
+<ul>
+<li>类型: <code>string</code></li>
+</ul>
+<p>Darkmode Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder), will be the same as <code>heroImage</code> by default.</p>
+<h3 id="herotext"> heroText</h3>
+<ul>
+<li>Type: <code>string</code></li>
+</ul>
+<p>Home icon alt text</p>
+<h3 id="tagline"> tagline</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'Welcome to your VuePress site'</code></li>
+</ul>
+<p>Append text</p>
+<h3 id="action"> action</h3>
+<ul>
+<li>Type: <code>ActionConfig | ActionConfig[]</code></li>
+</ul>
+<p><code>ActionConfig</code> structure:</p>
+<ul>
+<li><code>text</code>: Button text</li>
+<li><code>link</code>: Button link</li>
+</ul>
+<h3 id="features"> features</h3>
+<ul>
+<li>Type: <code>Feature[]</code></li>
+</ul>
+<p>Structure of <code>Feature</code>:</p>
+<ul>
+<li><code>title</code>: <code>string</code> title</li>
+<li><code>details</code>: <code>string</code> details</li>
+<li><code>link</code> (optional): <code>string</code> link address</li>
+</ul>
+<p>Feature description</p>
+<h2 id="demo"> Demo</h2>
+<div><pre><code><span>---</span>
+<span>home</span><span>:</span> <span>true</span>
+<span>icon</span><span>:</span> home
+<span>title</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
+<span>heroImage</span><span>:</span> /logo.svg
+<span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
+<span>tagline</span><span>:</span> A vuepress theme with tons of features✨
+<span>action</span><span>:</span>
+  <span>-</span> <span>text</span><span>:</span> Get Started 💡
+    <span>link</span><span>:</span> /guide/
+    <span>type</span><span>:</span> primary
+
+  <span>-</span> <span>text</span><span>:</span> Config 🛠
+    <span>link</span><span>:</span> /config/
+
+<span>features</span><span>:</span>
+  <span>-</span> <span>title</span><span>:</span> Pageviews and comments 💬
+    <span>details</span><span>:</span> Start pageview statistics and comment support with Valine and Vssue
+    <span>link</span><span>:</span> /guide/feature/comment/
+
+  <span>-</span> <span>title</span><span>:</span> Article information display ℹ
+    <span>details</span><span>:</span> Add author<span>,</span> writing date<span>,</span> reading time<span>,</span> word count and other information to your article
+    <span>link</span><span>:</span> /guide/feature/page<span>-</span>info/
+
+  <span>-</span> <span>title</span><span>:</span> Markdown Enhance 🧰
+    <span>details</span><span>:</span> Add align<span>,</span> sup/sub script<span>,</span> footnote<span>,</span> tex<span>,</span> flowchart<span>,</span> mark and presentation support in markdown
+    <span>link</span><span>:</span> /guide/feature/markdown/
+
+  <span>-</span> <span>title</span><span>:</span> Blog support 📝
+    <span>details</span><span>:</span> Add date<span>,</span> tags and category to your articles<span>,</span> then article<span>,</span> tag<span>,</span> category and timeline list will be auto generated
+    <span>link</span><span>:</span> /guide/feature/blog/
+
+  <span>-</span> <span>title</span><span>:</span> Article Encryption 🔐
+    <span>details</span><span>:</span> Encrypt you article based on path and folders<span>,</span> so that only the one you want could see them
+    <span>link</span><span>:</span> /guide/feature/blog/
+
+  <span>-</span> <span>title</span><span>:</span> Custom theme color 🎨
+    <span>details</span><span>:</span> Supports custom theme colors and allows users to switch between preset theme colors
+    <span>link</span><span>:</span> /guide/feature/themecolor/
+
+  <span>-</span> <span>title</span><span>:</span> Dark Mode 🌙
+    <span>details</span><span>:</span> Switch between light and dark modes freely
+    <span>link</span><span>:</span> /guide/feature/darkmode/
+
+  <span>-</span> <span>title</span><span>:</span> SEO enhancement and Sitemap 🗺
+    <span>details</span><span>:</span> The theme can automatically generate a Sitemap for your website<span>,</span> and optimize the resulting web page for search engines.
+    <span>link</span><span>:</span> /guide/feature/seo<span>-</span>sitemap/
+
+  <span>-</span> <span>title</span><span>:</span> PWA support 📲
+    <span>details</span><span>:</span> The built<span>-</span>in PWA plugin will make your website more like an APP.
+    <span>link</span><span>:</span> /guide/feature/pwa/
+
+  <span>-</span> <span>title</span><span>:</span> TS support 🔧
+    <span>details</span><span>:</span> Turn on TypeScript support for your VuePress
+    <span>link</span><span>:</span> /guide/feature/typescript/
+
+  <span>-</span> <span>title</span><span>:</span> More new features ✨
+    <span>details</span><span>:</span> Including icon support<span>,</span> path navigation<span>,</span> footer support<span>,</span> fullscreen button<span>,</span> blog homepage<span>,</span> etc.
+    <span>link</span><span>:</span> /guide/feature/
+
+<span>footer</span><span>:</span> MIT Licensed <span>|</span> Copyright © 2019<span>-</span>present Mr.Hope
+<span>copyrightText</span><span>:</span> <span>false</span>
+<span>---</span>
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Page</title>
@@ -6140,10 +6140,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>vuepress-theme-hope</title>
+      <title>Home</title>
       <link>https://vuepress-theme.mrhope.site/</link>
       <guid>https://vuepress-theme.mrhope.site/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">vuepress-theme-hope</source>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Home</source>
       <content:encoded><![CDATA[<p>You can use <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
 <h2 id="🛠install"> 🛠Install</h2>
 <div><pre><code><span>npm</span> i -D vuepress-theme-hope
@@ -11532,28 +11532,6 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>PWA</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/pwa/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/pwa/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">PWA</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
-<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
-<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
-<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
-<h2 id="manifest"> Manifest</h2>
-<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
-<h2 id="缓存大小"> 缓存大小</h2>
-<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
-<h2 id="更多"> 更多</h2>
-<p>有关更多详细信息，请参见 <a href="https://vuepress-pwa.mrhope.site/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>深色模式与主题色</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
@@ -11614,6 +11592,100 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>SEO 和 Sitemap</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">SEO 和 Sitemap</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
+<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
+<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<h2 id="seo"> SEO</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+<ul>
+<li>
+<p><code>siteConfig.title</code></p>
+</li>
+<li>
+<p><code>siteConfig.description</code></p>
+</li>
+<li>
+<p><code>themeConfig.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.title</code></p>
+</li>
+<li>
+<p><code>frontmatter.description</code></p>
+</li>
+<li>
+<p><code>frontmatter.image</code></p>
+</li>
+<li>
+<p><code>frontmatter.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.time</code></p>
+</li>
+<li>
+<p><code>frontmatter.tags</code></p>
+</li>
+<li>
+<p>Git 的上一次提交时间</p>
+</li>
+</ul>
+<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
+<h2 id="sitemap"> Sitemap</h2>
+<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
+<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<ul>
+<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
+<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
+<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>TS 支持</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">TS 支持</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="ts-支持"> TS 支持</h1>
+<p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
+<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Tyepscript。</p>
+<p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
+<div><p>Tips</p>
+<p>启用本主题后，你无需再依赖并启用 <code>@vuepress/plugin-typescript</code>。</p>
+</div>
+<h2 id="开启准备"> 开启准备</h2>
+<p>如果你的项目没有依赖 typescript，你需要额外安装它:</p>
+<div><pre><code><span>npm</span> i -D typescript
+</code></pre>
+<div><span>1</span><br></div></div><p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// 任何不小于 es6 的 target 均可</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// 规避 vuepress-types 的类型定义问题</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// Vue 的 TypeScript 写法需要开启此选项</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// 为了避免 vuepress-types 解析失败</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>// 项目中需要至少包含一个 ts 文件 (空的文件也可)，并正确配置在 include 中</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// 请将 src 替换成你的文档目录</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>如果你已经有了 <code>tsconfig.json</code>, 那么只需要在 <code>compilerOptions.types</code> 中添加 vuepress-theme-hope 的类型定义文件包 <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> 即可。</p>
+<p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
+<div><p>Note</p>
+<p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>安装/使用</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/install/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/install/</guid>
@@ -11637,6 +11709,89 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
 <p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
 </div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客首页</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/layout/blog/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/layout/blog/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">博客首页</source>
+      <category>layout</category>
+      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
+<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
+<p><img src="./assets/blog.png" alt="首页截图"></p>
+<h2 id="可配置的项目"> 可配置的项目</h2>
+<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
+<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
+<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
+<div><p>可用的社交媒体:</p>
+<ul>
+<li><code>'Baidu'</code>: 百度</li>
+<li><code>'Bitbucket'</code>: Bitbucket</li>
+<li><code>'Dingding'</code>: 钉钉</li>
+<li><code>'Discord'</code>: Discord</li>
+<li><code>'Dribbble'</code>: Dribble</li>
+<li><code>'Evernote'</code>: 印象笔记</li>
+<li><code>'Facebook'</code>: 脸书</li>
+<li><code>'Flipboard'</code>: 红板报</li>
+<li><code>'Gitee'</code>: Gitee</li>
+<li><code>'Github'</code>: <s>Gayhub</s> GitHub</li>
+<li><code>'Gitlab'</code>: Gitlab</li>
+<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
+<li><code>'Instagram'</code>: Instagram</li>
+<li><code>'Line'</code>: Line</li>
+<li><code>'Linkedin'</code>: 领英</li>
+<li><code>'Pinterest'</code>: 拼趣</li>
+<li><code>'Pocket'</code>: Pocket</li>
+<li><code>'QQ'</code>: QQ</li>
+<li><code>'Qzone'</code>: QQ 空间</li>
+<li><code>'Reddit'</code>: Reddit</li>
+<li><code>'Rss'</code>: RSS 地址</li>
+<li><code>'Steam'</code>: Steam</li>
+<li><code>'Twitter'</code>: Twitter</li>
+<li><code>'Wechat'</code>: 微信</li>
+<li><code>'Weibo'</code>: 微博</li>
+<li><code>'Whatsapp'</code>: Whatsapp</li>
+<li><code>'Youtube'</code>: YouTube</li>
+<li><code>'Zhihu'</code>: 知乎</li>
+</ul>
+</div>
+<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
+<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
+<h3 id="hero"> hero</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认: <code>true</code></li>
+</ul>
+<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
+<h3 id="bgimage"> bgImage</h3>
+<ul>
+<li>类型: <code>string</code></li>
+</ul>
+<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
+<h3 id="bgimagestyle"> bgImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>背景图片的 CSS 样式。</p>
+<h3 id="heroimagestyle"> heroImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>首页图标的 CSS 样式</p>
+<h3 id="项目"> 项目</h3>
+<ul>
+<li>类型: <code>ProjectOption[]</code></li>
+</ul>
+<p><code>ProjectOption</code> 包括以下键值:</p>
+<ul>
+<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
+<li><code>name</code>: 项目名称，必填</li>
+<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
+<li><code>desc</code>: 项目描述，选填</li>
+<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -11770,128 +11925,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>TS 支持</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">TS 支持</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="ts-支持"> TS 支持</h1>
-<p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
-<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Tyepscript。</p>
-<p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
-<div><p>Tips</p>
-<p>启用本主题后，你无需再依赖并启用 <code>@vuepress/plugin-typescript</code>。</p>
-</div>
-<h2 id="开启准备"> 开启准备</h2>
-<p>如果你的项目没有依赖 typescript，你需要额外安装它:</p>
-<div><pre><code><span>npm</span> i -D typescript
-</code></pre>
-<div><span>1</span><br></div></div><p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// 任何不小于 es6 的 target 均可</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// 规避 vuepress-types 的类型定义问题</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// Vue 的 TypeScript 写法需要开启此选项</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// 为了避免 vuepress-types 解析失败</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>// 项目中需要至少包含一个 ts 文件 (空的文件也可)，并正确配置在 include 中</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// 请将 src 替换成你的文档目录</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>如果你已经有了 <code>tsconfig.json</code>, 那么只需要在 <code>compilerOptions.types</code> 中添加 vuepress-theme-hope 的类型定义文件包 <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> 即可。</p>
-<p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
-<div><p>Note</p>
-<p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>博客首页</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/layout/blog/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/layout/blog/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">博客首页</source>
-      <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
-<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
-<p><img src="./assets/blog.png" alt="首页截图"></p>
-<h2 id="可配置的项目"> 可配置的项目</h2>
-<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
-<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
-<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
-<div><p>可用的社交媒体:</p>
-<ul>
-<li><code>'Baidu'</code>: 百度</li>
-<li><code>'Bitbucket'</code>: Bitbucket</li>
-<li><code>'Dingding'</code>: 钉钉</li>
-<li><code>'Discord'</code>: Discord</li>
-<li><code>'Dribbble'</code>: Dribble</li>
-<li><code>'Evernote'</code>: 印象笔记</li>
-<li><code>'Facebook'</code>: 脸书</li>
-<li><code>'Flipboard'</code>: 红板报</li>
-<li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: <s>Gayhub</s> GitHub</li>
-<li><code>'Gitlab'</code>: Gitlab</li>
-<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
-<li><code>'Instagram'</code>: Instagram</li>
-<li><code>'Line'</code>: Line</li>
-<li><code>'Linkedin'</code>: 领英</li>
-<li><code>'Pinterest'</code>: 拼趣</li>
-<li><code>'Pocket'</code>: Pocket</li>
-<li><code>'QQ'</code>: QQ</li>
-<li><code>'Qzone'</code>: QQ 空间</li>
-<li><code>'Reddit'</code>: Reddit</li>
-<li><code>'Rss'</code>: RSS 地址</li>
-<li><code>'Steam'</code>: Steam</li>
-<li><code>'Twitter'</code>: Twitter</li>
-<li><code>'Wechat'</code>: 微信</li>
-<li><code>'Weibo'</code>: 微博</li>
-<li><code>'Whatsapp'</code>: Whatsapp</li>
-<li><code>'Youtube'</code>: YouTube</li>
-<li><code>'Zhihu'</code>: 知乎</li>
-</ul>
-</div>
-<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
-<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
-<h3 id="hero"> hero</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认: <code>true</code></li>
-</ul>
-<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
-<h3 id="bgimage"> bgImage</h3>
-<ul>
-<li>类型: <code>string</code></li>
-</ul>
-<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
-<h3 id="bgimagestyle"> bgImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>背景图片的 CSS 样式。</p>
-<h3 id="heroimagestyle"> heroImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>首页图标的 CSS 样式</p>
-<h3 id="项目"> 项目</h3>
-<ul>
-<li>类型: <code>ProjectOption[]</code></li>
-</ul>
-<p><code>ProjectOption</code> 包括以下键值:</p>
-<ul>
-<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
-<li><code>name</code>: 项目名称，必填</li>
-<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
-<li><code>desc</code>: 项目描述，选填</li>
-<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>导航栏</title>
@@ -12705,10 +12738,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>vuepress-theme-hope</title>
+      <title>主页</title>
       <link>https://vuepress-theme.mrhope.site/zh/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">vuepress-theme-hope</source>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">主页</source>
       <content:encoded><![CDATA[<p>你可以直接使用 <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。</p>
 <h2 id="🛠-安装"> 🛠 安装</h2>
 <div><pre><code><span>npm</span> i -D vuepress-theme-hope
@@ -12726,61 +12759,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>同时，<code>config</code> 函数也会为你补全一些直接交付给 VuePress 的默认配置。</p>
 <p>你可以查看 <a href="https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档配置</a> 作为一个配置参考。</p>
 </div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>SEO 和 Sitemap</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">SEO 和 Sitemap</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
-<ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
-</ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -12831,6 +12809,28 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>PWA</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/pwa/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/pwa/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">PWA</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
+<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
+<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
+<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
+<h2 id="manifest"> Manifest</h2>
+<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<h2 id="缓存大小"> 缓存大小</h2>
+<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+<h2 id="更多"> 更多</h2>
+<p>有关更多详细信息，请参见 <a href="https://vuepress-pwa.mrhope.site/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
 ]]></content:encoded>
     </item>
   </channel>
