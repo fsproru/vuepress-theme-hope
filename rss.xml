@@ -6,58 +6,19 @@
     <link>https://vuepress-theme.mrhope.site/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Tue, 26 Jan 2021 07:00:01 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2021 07:00:01 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2021 07:06:27 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2021 07:06:27 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
-    <category>FAQ</category>
     <category>basic</category>
+    <category>FAQ</category>
     <category>config</category>
     <category>demo</category>
     <category>feature</category>
     <category>markdown</category>
     <category>instruction</category>
     <category>layout</category>
-    <item>
-      <title>Common problems</title>
-      <link>https://vuepress-theme.mrhope.site/FAQ/</link>
-      <guid>https://vuepress-theme.mrhope.site/FAQ/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Common problems</source>
-      <category>FAQ</category>
-      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
-<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
-<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
-<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
-<h2 id="typescript-problems"> TypeScript problems</h2>
-<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
-<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
-<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
-<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
-<p>A simple tsconfig.json is as follows:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>// type definition files of vuepress and this theme</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
-<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
-<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
-<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
-<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
-<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
-<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Markdown DEMO</title>
       <link>https://vuepress-theme.mrhope.site/basic/markdown/demo/</link>
@@ -312,6 +273,45 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
       <enclosure url="https://vuepress-theme.mrhope.site/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Common problems</title>
+      <link>https://vuepress-theme.mrhope.site/FAQ/</link>
+      <guid>https://vuepress-theme.mrhope.site/FAQ/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Common problems</source>
+      <category>FAQ</category>
+      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
+<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
+<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
+<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
+<h2 id="typescript-problems"> TypeScript problems</h2>
+<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
+<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
+<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
+<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
+<p>A simple tsconfig.json is as follows:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>// type definition files of vuepress and this theme</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
+<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
+<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
+<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
+<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
+<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
+<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Nature</title>
@@ -5029,6 +5029,35 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>Install / Usage</title>
+      <link>https://vuepress-theme.mrhope.site/guide/install/</link>
+      <guid>https://vuepress-theme.mrhope.site/guide/install/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">Install / Usage</source>
+      <category>instruction</category>
+      <content:encoded><![CDATA[<h2 id="use-in-new-project"> Use in new project</h2>
+<p>You can use <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
+<h2 id="use-in-existing-project"> Use in existing project</h2>
+<h3 id="installation"> Installation</h3>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div><p>Or</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
+
+module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
+  <span>// your config here</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>Tips</p>
+<p>To minimize user configuration, vuepress-theme-hope provides some configuration options that need to be processed before being submitted to VuePress. At the same time, vuepress-theme-hope will also allow you to omit some configurations and automatically generate them for you.</p>
+<p>For example, automatically generate multi-language options in the project configuration for you based on the multi-language options in your theme configuration, and automatically help you complete the localization work.</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>TS support</title>
       <link>https://vuepress-theme.mrhope.site/guide/feature/typescript/</link>
       <guid>https://vuepress-theme.mrhope.site/guide/feature/typescript/</guid>
@@ -5064,35 +5093,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>You should also create a ts file in your project and add it in the <code>include</code> option of <code>tsconfig.json</code>. You can create an empty enhanceApp.ts and import it.</p>
 <div><p>Note</p>
 <p><code>ts-loader</code> requires <code>tsconfig.json</code> to hit at least one valid ts file, so the easiest way is to create or convert (if you already have <code>enhanceAppFiles.js</code>) an <code>enhanceAppFiles.ts</code> and add it in the <code>include</code> option</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Install / Usage</title>
-      <link>https://vuepress-theme.mrhope.site/guide/install/</link>
-      <guid>https://vuepress-theme.mrhope.site/guide/install/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">Install / Usage</source>
-      <category>instruction</category>
-      <content:encoded><![CDATA[<h2 id="use-in-new-project"> Use in new project</h2>
-<p>You can use <a href="https://github.com/Mister-Hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
-<h2 id="use-in-existing-project"> Use in existing project</h2>
-<h3 id="installation"> Installation</h3>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div><p>Or</p>
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
-
-module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
-  <span>// your config here</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>Tips</p>
-<p>To minimize user configuration, vuepress-theme-hope provides some configuration options that need to be processed before being submitted to VuePress. At the same time, vuepress-theme-hope will also allow you to omit some configurations and automatically generate them for you.</p>
-<p>For example, automatically generate multi-language options in the project configuration for you based on the multi-language options in your theme configuration, and automatically help you complete the localization work.</p>
 </div>
 ]]></content:encoded>
     </item>
@@ -8215,6 +8215,135 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>插件</title>
+      <link>https://vuepress-theme.mrhope.site/zh/basic/vuepress/plugin/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/basic/vuepress/plugin/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">插件</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<h2 id="介绍"> 介绍</h2>
+<p>插件通常会为 VuePress 添加全局功能。</p>
+<p>整个插件系统的架构如下:</p>
+<p><img src="./assets/architecture.png" alt="插件系统架构"></p>
+<h2 id="使用插件"> 使用插件</h2>
+<p>你可以通过在 <code>.vuepress/config.js</code> 中做一些配置来使用插件:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>require</span><span>(</span><span>"./my-plugin.js"</span><span>)</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="使用来自依赖的插件"> 使用来自依赖的插件</h3>
+<p>一个插件可以在以 <code>vuepress-plugin-xxx</code> 的形式发布到 npm，你可以这样使用它:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"vuepress-plugin-xx"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>同时，如果你的插件名以 <code>vuepress-plugin-</code> 开头，你可以使用缩写来省略这个前缀:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"xxx"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>和下面等价:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"vuepress-plugin-xxx"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>这也适用于 <a href="https://docs.npmjs.com/misc/scope" target="_blank" rel="noopener noreferrer">Scoped Packages</a>:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"@org/vuepress-plugin-xxx"</span><span>,</span> <span>"@vuepress/plugin-xxx"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>等价于:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"@org/xxx"</span><span>,</span> <span>"@vuepress/xxx"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><div><p>注意</p>
+<p>以 <code>@vuepress/plugin-</code> 开头的插件是官方维护的插件。</p>
+</div>
+<h2 id="插件的配置"> 插件的配置</h2>
+<p>通过<code>config.js</code>的<code>plugin</code>字段配置。</p>
+<h3 id="babel-式"> Babel 式</h3>
+<p>插件可以通过在配置内的数组中封装名称和选项对象来指定选项:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"vuepress-plugin-xxx"</span><span>,</span>
+      <span>{</span>
+        <span>/* options */</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>由于这种风格和 <a href="https://babeljs.io/docs/en/plugins#plugin-preset-options" target="_blank" rel="noopener noreferrer">babeld Plugin/Preset Options</a> 一致，我们称之为&quot;Babel 风格&quot;。</p>
+<h3 id="对象式"> 对象式</h3>
+<p>VuePress 也提供了一种更简单的方式来使用来自依赖的插件:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>{</span>
+    xxx<span>:</span> <span>{</span>
+      <span>/* options */</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><div><p>Note</p>
+<p>由于某些插件可能存在多个实例，强烈推荐使用<strong>babel 风格</strong>写法。</p>
+</div>
+<div><p>Tips</p>
+<p>可以通过显示地将选项设置成 <code>false</code> 来禁用一个插件:</p>
+<ul>
+<li>Babel 风格</li>
+</ul>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span><span>"xxx"</span><span>,</span> <span>false</span><span>]</span><span>,</span> <span>// disabled.</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ul>
+<li>对象风格</li>
+</ul>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>{</span>
+    xxx<span>:</span> <span>false</span><span>,</span> <span>// disabled.</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></div>
+<h2 id="官方插件"> 官方插件</h2>
+<ul>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html" target="_blank" rel="noopener noreferrer">active-header-links</a>: 页面滚动时自动激活侧边栏链接</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-back-to-top.html" target="_blank" rel="noopener noreferrer">back-to-top</a>: 添加返回顶部按钮</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-google-analytics.html" target="_blank" rel="noopener noreferrer">google-analytics</a>: 添加 Google analytics</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html" target="_blank" rel="noopener noreferrer">last-updated</a>: 更新时间</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html" target="_blank" rel="noopener noreferrer">medium-zoom</a>: 图片缩放</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html" target="_blank" rel="noopener noreferrer">nprogress</a>: 进度条</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html" target="_blank" rel="noopener noreferrer">PWA</a>: 支持 Progressive Web App</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-register-components.html" target="_blank" rel="noopener noreferrer">register-component</a>: 注册 components</li>
+<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html" target="_blank" rel="noopener noreferrer">search</a>: 基于标题的搜索插件</li>
+</ul>
+<div><p>Tips</p>
+<p>具体用法详见: <a href="https://v1.vuepress.vuejs.org/zh/plugin/" target="_blank" rel="noopener noreferrer">VuePress 插件</a></p>
+</div>
+<h2 id="社区插件"> 社区插件</h2>
+<ul>
+<li><a href="https://vuepress.github.io/zh/plugins/clean-urls.html" target="_blank" rel="noopener noreferrer">clean-urls</a>: 在 VuePress 中使用简洁链接</li>
+<li><a href="https://vuepress.github.io/zh/plugins/container.html" target="_blank" rel="noopener noreferrer">container</a>: 在 VuePress 中使用 Markdown 容器</li>
+<li><a href="https://vuepress.github.io/zh/plugins/copyright.html" target="_blank" rel="noopener noreferrer">copyright</a>: 在 VuePress 中处理复制行为</li>
+<li><a href="https://vuepress.github.io/zh/plugins/dehydrate.html" target="_blank" rel="noopener noreferrer">dehydrate</a>: 修改 VuePress 生成的 HTML 文件</li>
+<li><a href="https://vuepress.github.io/zh/plugins/git-log.html" target="_blank" rel="noopener noreferrer">git-log</a>: 在 VuePress 中整合 git 日志</li>
+<li><a href="https://vuepress.github.io/zh/plugins/mathjax.html" target="_blank" rel="noopener noreferrer">mathjax</a>: 在 VuePress 中使用 TeX 语法</li>
+<li><a href="https://vuepress.github.io/zh/plugins/migrate.html" target="_blank" rel="noopener noreferrer">migrate</a>: 从其他网站迁移到 VuePress</li>
+<li><a href="https://vuepress.github.io/zh/plugins/named-chunks.html" target="_blank" rel="noopener noreferrer">named-chunks</a>: 在 VuePress 中使用命名模块</li>
+<li><a href="https://vuepress.github.io/zh/plugins/redirect.html" target="_blank" rel="noopener noreferrer">redirect</a>: 在 VuePress 中处理重定向</li>
+<li><a href="https://vuepress.github.io/zh/plugins/serve.html" target="_blank" rel="noopener noreferrer">serve</a>: 在本地构建静态 VuePress 服务器</li>
+<li><a href="https://vuepress.github.io/zh/plugins/zooming.html" target="_blank" rel="noopener noreferrer">zooming</a>: 使 VuePress 中的图片支持缩放(使用 zooming)</li>
+</ul>
+<div><p>Tips</p>
+<p>文档详见: <a href="https://vuepress.github.io/zh/" target="_blank" rel="noopener noreferrer">VuePress 社区</a></p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>文件结构介绍</title>
       <link>https://vuepress-theme.mrhope.site/zh/basic/vuepress/file/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/basic/vuepress/file/</guid>
@@ -8356,135 +8485,6 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 </tr>
 </tbody>
 </table>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>插件</title>
-      <link>https://vuepress-theme.mrhope.site/zh/basic/vuepress/plugin/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/basic/vuepress/plugin/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">插件</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<h2 id="介绍"> 介绍</h2>
-<p>插件通常会为 VuePress 添加全局功能。</p>
-<p>整个插件系统的架构如下:</p>
-<p><img src="./assets/architecture.png" alt="插件系统架构"></p>
-<h2 id="使用插件"> 使用插件</h2>
-<p>你可以通过在 <code>.vuepress/config.js</code> 中做一些配置来使用插件:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>require</span><span>(</span><span>"./my-plugin.js"</span><span>)</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="使用来自依赖的插件"> 使用来自依赖的插件</h3>
-<p>一个插件可以在以 <code>vuepress-plugin-xxx</code> 的形式发布到 npm，你可以这样使用它:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>"vuepress-plugin-xx"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>同时，如果你的插件名以 <code>vuepress-plugin-</code> 开头，你可以使用缩写来省略这个前缀:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>"xxx"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>和下面等价:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>"vuepress-plugin-xxx"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>这也适用于 <a href="https://docs.npmjs.com/misc/scope" target="_blank" rel="noopener noreferrer">Scoped Packages</a>:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>"@org/vuepress-plugin-xxx"</span><span>,</span> <span>"@vuepress/plugin-xxx"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>等价于:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>"@org/xxx"</span><span>,</span> <span>"@vuepress/xxx"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><div><p>注意</p>
-<p>以 <code>@vuepress/plugin-</code> 开头的插件是官方维护的插件。</p>
-</div>
-<h2 id="插件的配置"> 插件的配置</h2>
-<p>通过<code>config.js</code>的<code>plugin</code>字段配置。</p>
-<h3 id="babel-式"> Babel 式</h3>
-<p>插件可以通过在配置内的数组中封装名称和选项对象来指定选项:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"vuepress-plugin-xxx"</span><span>,</span>
-      <span>{</span>
-        <span>/* options */</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>由于这种风格和 <a href="https://babeljs.io/docs/en/plugins#plugin-preset-options" target="_blank" rel="noopener noreferrer">babeld Plugin/Preset Options</a> 一致，我们称之为&quot;Babel 风格&quot;。</p>
-<h3 id="对象式"> 对象式</h3>
-<p>VuePress 也提供了一种更简单的方式来使用来自依赖的插件:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>{</span>
-    xxx<span>:</span> <span>{</span>
-      <span>/* options */</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><div><p>Note</p>
-<p>由于某些插件可能存在多个实例，强烈推荐使用<strong>babel 风格</strong>写法。</p>
-</div>
-<div><p>Tips</p>
-<p>可以通过显示地将选项设置成 <code>false</code> 来禁用一个插件:</p>
-<ul>
-<li>Babel 风格</li>
-</ul>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span><span>"xxx"</span><span>,</span> <span>false</span><span>]</span><span>,</span> <span>// disabled.</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ul>
-<li>对象风格</li>
-</ul>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>{</span>
-    xxx<span>:</span> <span>false</span><span>,</span> <span>// disabled.</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></div>
-<h2 id="官方插件"> 官方插件</h2>
-<ul>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html" target="_blank" rel="noopener noreferrer">active-header-links</a>: 页面滚动时自动激活侧边栏链接</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-back-to-top.html" target="_blank" rel="noopener noreferrer">back-to-top</a>: 添加返回顶部按钮</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-google-analytics.html" target="_blank" rel="noopener noreferrer">google-analytics</a>: 添加 Google analytics</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html" target="_blank" rel="noopener noreferrer">last-updated</a>: 更新时间</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html" target="_blank" rel="noopener noreferrer">medium-zoom</a>: 图片缩放</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html" target="_blank" rel="noopener noreferrer">nprogress</a>: 进度条</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html" target="_blank" rel="noopener noreferrer">PWA</a>: 支持 Progressive Web App</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-register-components.html" target="_blank" rel="noopener noreferrer">register-component</a>: 注册 components</li>
-<li><a href="https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html" target="_blank" rel="noopener noreferrer">search</a>: 基于标题的搜索插件</li>
-</ul>
-<div><p>Tips</p>
-<p>具体用法详见: <a href="https://v1.vuepress.vuejs.org/zh/plugin/" target="_blank" rel="noopener noreferrer">VuePress 插件</a></p>
-</div>
-<h2 id="社区插件"> 社区插件</h2>
-<ul>
-<li><a href="https://vuepress.github.io/zh/plugins/clean-urls.html" target="_blank" rel="noopener noreferrer">clean-urls</a>: 在 VuePress 中使用简洁链接</li>
-<li><a href="https://vuepress.github.io/zh/plugins/container.html" target="_blank" rel="noopener noreferrer">container</a>: 在 VuePress 中使用 Markdown 容器</li>
-<li><a href="https://vuepress.github.io/zh/plugins/copyright.html" target="_blank" rel="noopener noreferrer">copyright</a>: 在 VuePress 中处理复制行为</li>
-<li><a href="https://vuepress.github.io/zh/plugins/dehydrate.html" target="_blank" rel="noopener noreferrer">dehydrate</a>: 修改 VuePress 生成的 HTML 文件</li>
-<li><a href="https://vuepress.github.io/zh/plugins/git-log.html" target="_blank" rel="noopener noreferrer">git-log</a>: 在 VuePress 中整合 git 日志</li>
-<li><a href="https://vuepress.github.io/zh/plugins/mathjax.html" target="_blank" rel="noopener noreferrer">mathjax</a>: 在 VuePress 中使用 TeX 语法</li>
-<li><a href="https://vuepress.github.io/zh/plugins/migrate.html" target="_blank" rel="noopener noreferrer">migrate</a>: 从其他网站迁移到 VuePress</li>
-<li><a href="https://vuepress.github.io/zh/plugins/named-chunks.html" target="_blank" rel="noopener noreferrer">named-chunks</a>: 在 VuePress 中使用命名模块</li>
-<li><a href="https://vuepress.github.io/zh/plugins/redirect.html" target="_blank" rel="noopener noreferrer">redirect</a>: 在 VuePress 中处理重定向</li>
-<li><a href="https://vuepress.github.io/zh/plugins/serve.html" target="_blank" rel="noopener noreferrer">serve</a>: 在本地构建静态 VuePress 服务器</li>
-<li><a href="https://vuepress.github.io/zh/plugins/zooming.html" target="_blank" rel="noopener noreferrer">zooming</a>: 使 VuePress 中的图片支持缩放(使用 zooming)</li>
-</ul>
-<div><p>Tips</p>
-<p>文档详见: <a href="https://vuepress.github.io/zh/" target="_blank" rel="noopener noreferrer">VuePress 社区</a></p>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -11554,6 +11554,66 @@ $$
 ]]></content:encoded>
     </item>
     <item>
+      <title>深色模式与主题色</title>
+      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
+      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
+      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
+<h2 id="深色模式"> 深色模式</h2>
+<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
+<p><img src="./assets/darkmode.png" alt="深色模式"></p>
+<p>深色模式支持选项:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
+<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
+<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
+<li><code>'disable'</code>: 禁用深色模式</li>
+</ul>
+<h2 id="主题色"> 主题色</h2>
+<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
+<h3 id="禁用功能"> 禁用功能</h3>
+<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
+<h3 id="自定义颜色"> 自定义颜色</h3>
+<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
+<details><summary>例子</summary>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    themeColor<span>:</span> <span>{</span>
+      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
+      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
+      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
+      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
+<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
+<details><summary>例子</summary>
+<div><pre><code><span>// .vuepress/styles/palette.styl</span>
+<span><span>$colorPicker</span> <span>=</span> <span>{</span>
+  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
+  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
+  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
+  <span>orange</span><span>:</span> <span>#fb9b5f</span>
+<span>}</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
+<h2 id="全屏按钮"> 全屏按钮</h2>
+<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
+<div><p>Tips</p>
+<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
+</div>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>TS 支持</title>
       <link>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</link>
       <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/typescript/</guid>
@@ -12772,66 +12832,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 </ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>深色模式与主题色</title>
-      <link>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</link>
-      <guid>https://vuepress-theme.mrhope.site/zh/guide/feature/theme/</guid>
-      <source url="https://vuepress-theme.mrhope.site/rss.xml">深色模式与主题色</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="深色模式与主题色"> 深色模式与主题色</h1>
-<h2 id="深色模式"> 深色模式</h2>
-<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
-<p><img src="./assets/darkmode.png" alt="深色模式"></p>
-<p>深色模式支持选项:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
-<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
-<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
-<li><code>'disable'</code>: 禁用深色模式</li>
-</ul>
-<h2 id="主题色"> 主题色</h2>
-<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
-<h3 id="禁用功能"> 禁用功能</h3>
-<p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
-<h3 id="自定义颜色"> 自定义颜色</h3>
-<p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
-<details><summary>例子</summary>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    themeColor<span>:</span> <span>{</span>
-      blue<span>:</span> <span>"#2196f3"</span><span>,</span>
-      red<span>:</span> <span>"#f26d6d"</span><span>,</span>
-      green<span>:</span> <span>"#3eaf7c"</span><span>,</span>
-      orange<span>:</span> <span>"#fb9b5f"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
-<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
-<details><summary>例子</summary>
-<div><pre><code><span>// .vuepress/styles/palette.styl</span>
-<span><span>$colorPicker</span> <span>=</span> <span>{</span>
-  <span>red</span><span>:</span> <span>#f26d6d</span><span>,</span>
-  <span>blue</span><span>:</span> <span>#2196f3</span><span>,</span>
-  <span>green</span><span>:</span> <span>#3eaf7c</span><span>,</span>
-  <span>orange</span><span>:</span> <span>#fb9b5f</span>
-<span>}</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
-<h2 id="全屏按钮"> 全屏按钮</h2>
-<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
-<div><p>Tips</p>
-<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
-</div>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
